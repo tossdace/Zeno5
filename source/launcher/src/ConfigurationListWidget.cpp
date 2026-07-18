@@ -24,9 +24,9 @@
 
 #include "ui_configuration_list_widget.h"
 
-constexpr char CONF_FILE_NAME[]    = "Kyty.ini";
-constexpr char CONF_ORG_NAME[]     = "Kyty";
-constexpr char CONF_APP_NAME[]     = "Kyty";
+constexpr char CONF_FILE_NAME[]    = "Zeno5.ini";
+constexpr char CONF_ORG_NAME[]     = "Zeno5";
+constexpr char CONF_APP_NAME[]     = "Zeno5";
 constexpr char CONF_SECTION_NAME[] = "ConfigurationList";
 
 ConfigurationListWidget::ConfigurationListWidget(QWidget* parent): QWidget(parent), m_ui(new Ui::ConfigurationListWidget)
