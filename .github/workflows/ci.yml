@@ -43,5 +43,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
-        name: Kyty
+        name: Zeno5
         path: _Build/_Gcc/_bin

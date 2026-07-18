@@ -722,7 +722,7 @@ static void process_display_event(GameApi* game, SDL_DisplayEvent display)
 		case SDL_DISPLAYEVENT_ORIENTATION: sdl = true; // @suppress("No break at end of case")
 		case static_cast<Uint8>(DisplayOrientation::DisplayEventOrientation):
 		{
-			printf("Display %" PRIu32 "[%s] changed orientation to %d - ", display.display, sdl ? "SDL" : "Kyty",
+			printf("Display %" PRIu32 "[%s] changed orientation to %d - ", display.display, sdl ? "SDL" : "Zeno5",
 			       static_cast<int>(display.data1));
 
 			EventDisplay d {};
@@ -2095,9 +2095,9 @@ static void VulkanCreate(WindowContext* ctx)
 	VkApplicationInfo app_info {};
 	app_info.sType              = VK_STRUCTURE_TYPE_APPLICATION_INFO;
 	app_info.pNext              = nullptr;
-	app_info.pApplicationName   = "Kyty";
+	app_info.pApplicationName   = "Zeno5";
 	app_info.applicationVersion = 1;
-	app_info.pEngineName        = "Kyty";
+	app_info.pEngineName        = "Zeno5";
 	app_info.engineVersion      = 1;
 	app_info.apiVersion         = VK_API_VERSION_1_2; // NOLINT
 

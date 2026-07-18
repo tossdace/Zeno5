@@ -302,7 +302,7 @@
     <name>MainDialog</name>
     <message>
         <location filename="../forms/main_dialog.ui" line="20"/>
-        <source>Kyty Launcher</source>
+        <source>Zeno5 Launcher</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
